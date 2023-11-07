@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background:linear-gradient(120deg,#6377e9,#540c67) ;
+    padding: 10px;
+
+}
+.todo-container{
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 150px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+
+}
+.todo-container h2{
+    color: #002765;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    }
+.todo-container h2 img{
+    width: 30px;
+    margin-left: 10px;
+}
+.list{
+  display: flex; 
+
+   align-items: center;
+   justify-content: space-between;
+   background: #e6e8ea;
+   border-radius: 30px;
+   padding-left: 20px;
+   margin-bottom: 25px;
+}
+#InputBox{
+    flex:1 ;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 5px;
+}
+#addTask{
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #ff5945;
+    color: #fff;
+    font-size:16px ;
+    cursor: pointer;
+    border-radius:40px ;
+}
+.edit{
+    margin: 10px;
+    margin-left: 100px;
+    border: none;
+    outline: none;
+    padding: 5px 25px;
+    background: rgb(255, 236, 69);
+    color: #fff;
+    font-size:16px ;
+    cursor: pointer;
+    border-radius:20px ; 
+   
+}
+.delete{
+    margin: 10px;
+    margin-left: 100px;
+    border: none;
+    outline: none;
+    padding: 5px 25px;
+    background: rgb(255, 69, 69);
+    color: #fff;
+    font-size:16px ;
+    cursor: pointer;
+    border-radius:20px ;
+ 
+}
+#listContainer {
+ 
+   
+  
+}

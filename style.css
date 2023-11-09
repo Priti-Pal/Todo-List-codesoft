@@ -95,13 +95,13 @@ li {
     align-items: center;
 }
 
-/* Style for the text inside the list item */
 li span {
     width: 100%;
     display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
-/* Style for the buttons inside the list item */
 li button {
     width: 40%;
     display: inline-block;

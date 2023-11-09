@@ -59,7 +59,7 @@
 }
 .edit{
     margin: 10px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
     border: none;
     outline: none;
     padding: 5px 25px;
@@ -68,11 +68,12 @@
     font-size:16px ;
     cursor: pointer;
     border-radius:20px ; 
-   
+    min-width: 100px ;
+    /* width: 150px; */
 }
 .delete{
     margin: 10px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
     border: none;
     outline: none;
     padding: 5px 25px;
@@ -81,10 +82,27 @@
     font-size:16px ;
     cursor: pointer;
     border-radius:20px ;
- 
+    min-width: 100px ;
+    /* width: 150px; */
 }
-#listContainer {
- 
-   
-  
+li {
+    width: 100%;
+    margin: 10px 0;
+    background-color: #f0f0f0;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 200px 150px 150px;
+    align-items: center;
+}
+
+/* Style for the text inside the list item */
+li span {
+    width: 100%;
+    display: inline-block;
+}
+
+/* Style for the buttons inside the list item */
+li button {
+    width: 40%;
+    display: inline-block;
 }

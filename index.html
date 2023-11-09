@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-Do List App</title>
+    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,9 +12,8 @@
         <div class="todo-container">
             <h2>To-Do List <img src="image/icon.png" alt="no-image"></h2>
             <div class="list">
-                <input type="text" id="InputBox" placeholder="Add your task">
-                <button id="addTask">Add</button>
-                <!-- <button id="deleteTask">Delete</button> -->
+                <input type="text" id="InputBox" placeholder="Add your task" maxlength="60">
+                <button id="addTask" >Add</button>
             </div>
             <ul id="listContainer">
                 <!-- Your to-do list items will be added here dynamically -->
